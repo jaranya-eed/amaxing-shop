@@ -15,9 +15,11 @@
 <body>
 	<?php $this->load->view('includes/header'); ?>
 	<div class="container">
-		<?php $this->load->view('includes/left-sidebar'); ?>
-		<?php $this->load->view('includes/main-content'); ?>
-		<?php $this->load->view('includes/right-sidebar'); ?>
+<!-- 		<div class="row"> -->
+			<?php $this->load->view('includes/left-sidebar'); ?>
+			<?php $this->load->view('includes/main-content'); ?>
+			<?php $this->load->view('includes/right-sidebar'); ?>
+<!-- 		</div> -->
 	</div>
 	<?php $this->load->view('includes/footer'); ?>
 	<?php $this->load->view('includes/js'); ?>
