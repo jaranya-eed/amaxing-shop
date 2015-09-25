@@ -1,6 +1,6 @@
 body {
     font-size: 14px;
-    font-family: 'Helvetica';
+/*     font-family: 'Helvetica'; */
 }
 img {
     max-width: 100%;
@@ -492,6 +492,7 @@ ul.sub-menu {
 	/*   border-top: 1px solid #fff; */
 	border: 1px solid #CFCCCB;
 	border-top: none;
+	padding: 2px 0;
 }
 
 .sidebar>.sidebar-menu>li>a {
@@ -502,107 +503,107 @@ ul.sub-menu {
 	background: #f9f9f9;
 }
 /*========= sidebar hover =========*/
-.sidebar>.sidebar-menu>li>a.beauty:hover {
+.sidebar>.sidebar-menu>li>a.beauty:hover, .sidebar>.sidebar-menu>li>a.beauty:focus {
 	color: #F5979D;
 }
 
-.sidebar>.sidebar-menu>li>a:hover i.beauty-icon {
+.sidebar>.sidebar-menu>li>a:hover i.beauty-icon, .sidebar>.sidebar-menu>li>a:focus i.beauty-icon {
 	background: url("../img/icon/beauty-hover.png") no-repeat center;
 }
 
-.sidebar>.sidebar-menu>li>a.baby:hover {
+.sidebar>.sidebar-menu>li>a.baby:hover, .sidebar>.sidebar-menu>li>a.baby:focus {
 	color: #FFC20E;
 }
 
-.sidebar>.sidebar-menu>li>a:hover i.baby-icon {
+.sidebar>.sidebar-menu>li>a:hover i.baby-icon, .sidebar>.sidebar-menu>li>a:focus i.baby-icon {
 	background: url("../img/icon/baby-hover.png") no-repeat center;
 }
 
-.sidebar>.sidebar-menu>li>a.mobile:hover {
+.sidebar>.sidebar-menu>li>a.mobile:hover, .sidebar>.sidebar-menu>li>a.mobile:focus {
 	color: #998574;
 }
 
-.sidebar>.sidebar-menu>li>a:hover i.mobile-icon {
+.sidebar>.sidebar-menu>li>a:hover i.mobile-icon, .sidebar>.sidebar-menu>li>a:focus i.mobile-icon {
 	background: url("../img/icon/mobile-hover.png") no-repeat center;
 }
 
-.sidebar>.sidebar-menu>li>a.camera:hover {
+.sidebar>.sidebar-menu>li>a.camera:hover, .sidebar>.sidebar-menu>li>a.camera:focus {
 	color: #D5A99B;
 }
 
-.sidebar>.sidebar-menu>li>a:hover i.camera-icon {
+.sidebar>.sidebar-menu>li>a:hover i.camera-icon, .sidebar>.sidebar-menu>li>a:focus i.camera-icon {
 	background: url("../img/icon/camera-hover.png") no-repeat center;
 }
 
-.sidebar>.sidebar-menu>li>a.electronic:hover {
+.sidebar>.sidebar-menu>li>a.electronic:hover, .sidebar>.sidebar-menu>li>a.electronic:focus {
 	color: #0072bc;
 }
 
-.sidebar>.sidebar-menu>li>a:hover i.electronic-icon {
+.sidebar>.sidebar-menu>li>a:hover i.electronic-icon, .sidebar>.sidebar-menu>li>a:focus i.electronic-icon {
 	background: url("../img/icon/electronic-hover.png") no-repeat center;
 }
 
-.sidebar>.sidebar-menu>li>a.home-app:hover {
+.sidebar>.sidebar-menu>li>a.home-app:hover, .sidebar>.sidebar-menu>li>a.home-app:focus {
 	color: #7da7d9;
 }
 
-.sidebar>.sidebar-menu>li>a:hover i.home-app-icon {
+.sidebar>.sidebar-menu>li>a:hover i.home-app-icon, .sidebar>.sidebar-menu>li>a:focus i.home-app-icon {
 	background: url("../img/icon/home-app-hover.png") no-repeat center;
 }
 
-.sidebar>.sidebar-menu>li>a.home-deco:hover {
+.sidebar>.sidebar-menu>li>a.home-deco:hover, .sidebar>.sidebar-menu>li>a.home-deco:focus {
 	color: #7accc8;
 }
 
-.sidebar>.sidebar-menu>li>a:hover i.home-dec-icon {
+.sidebar>.sidebar-menu>li>a:hover i.home-dec-icon, .sidebar>.sidebar-menu>li>a:focus i.home-dec-icon {
 	background: url("../img/icon/home-deco-hover.png") no-repeat center;
 }
 
-.sidebar>.sidebar-menu>li>a.lifestyle:hover {
+.sidebar>.sidebar-menu>li>a.lifestyle:hover, .sidebar>.sidebar-menu>li>a.lifestyle:focus {
 	color: #acd373;
 }
 
-.sidebar>.sidebar-menu>li>a:hover i.lifestyle-icon {
+.sidebar>.sidebar-menu>li>a:hover i.lifestyle-icon, .sidebar>.sidebar-menu>li>a:focus i.lifestyle-icon {
 	background: url("../img/icon/lifestyle-hover.png") no-repeat center;
 }
 
-.sidebar>.sidebar-menu>li>a.fashion:hover {
+.sidebar>.sidebar-menu>li>a.fashion:hover, .sidebar>.sidebar-menu>li>a.fashion:focus {
 	color: #f58220;
 }
 
-.sidebar>.sidebar-menu>li>a:hover i.fashion-icon {
+.sidebar>.sidebar-menu>li>a:hover i.fashion-icon, .sidebar>.sidebar-menu>li>a:focus i.fashion-icon {
 	background: url("../img/icon/fashion-hover.png") no-repeat center;
 }
 
-.sidebar>.sidebar-menu>li>a.sport:hover {
+.sidebar>.sidebar-menu>li>a.sport:hover, .sidebar>.sidebar-menu>li>a.sport:focus {
 	color: #ef404a;
 }
 
-.sidebar>.sidebar-menu>li>a:hover i.sport-icon {
+.sidebar>.sidebar-menu>li>a:hover i.sport-icon, .sidebar>.sidebar-menu>li>a:focus i.sport-icon {
 	background: url("../img/icon/sport-hover.png") no-repeat center;
 }
 
-.sidebar>.sidebar-menu>li>a.automotive:hover {
+.sidebar>.sidebar-menu>li>a.automotive:hover, .sidebar>.sidebar-menu>li>a.automotive:focus {
 	color: #662d91;
 }
 
-.sidebar>.sidebar-menu>li>a:hover i.automotive-icon {
+.sidebar>.sidebar-menu>li>a:hover i.automotive-icon, .sidebar>.sidebar-menu>li>a:focus i.automotive-icon {
 	background: url("../img/icon/automotive-hover.png") no-repeat center;
 }
 
-.sidebar>.sidebar-menu>li>a.media:hover {
+.sidebar>.sidebar-menu>li>a.media-side:hover, .sidebar>.sidebar-menu>li>a.media-side:focus {
 	color: #383a81;
 }
 
-.sidebar>.sidebar-menu>li>a:hover i.media-icon {
+.sidebar>.sidebar-menu>li>a:hover i.media-icon, .sidebar>.sidebar-menu>li>a:focus i.media-icon {
 	background: url("../img/icon/media-hover.png") no-repeat center;
 }
 
-.sidebar>.sidebar-menu>li>a.watchs:hover {
+.sidebar>.sidebar-menu>li>a.watchs:hover, .sidebar>.sidebar-menu>li>a.watchs:focus {
 	color: #59637f;
 }
 
-.sidebar>.sidebar-menu>li>a:hover i.watchs-icon {
+.sidebar>.sidebar-menu>li>a:hover i.watchs-icon, .sidebar>.sidebar-menu>li>a:focus i.watchs-icon {
 	background: url("../img/icon/watchs-hover.png") no-repeat center;
 }
 
@@ -708,6 +709,27 @@ ul.sub-menu {
 	border-bottom-right-radius: 2px !important;
 	border-bottom-left-radius: 0 !important;
 }
+/*================ Right Sidebar Menu ====================*/
+.right-side {
+	margin-top: 20px;
+}
+@media (min-width: 768px) {
+	.right-side-indicators {
+	    bottom: 20px;
+	}
+}
+.right-side-indicators {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0px;
+    margin-left: -30%;
+    text-align: center;
+    list-style: outside none none;
+}
+
 /*================ Left Sidebar Menu ====================*/
 /*.category-products {
   border: 1px solid #F7F7F0;
@@ -931,8 +953,8 @@ ul.sub-menu {
 }
 /*========== Carousel Slide=========*/
 #slider {
-    padding: 20px 0;
-    margin: 0 -25px;
+    padding: 15px 0;
+    margin: 0 -15px;
 }
 .carousel-indicators li {
     background: #C4C4BE;
@@ -1000,7 +1022,7 @@ ul.sub-menu {
     border-radius: 0;
 }
 .panel-brand-footer {
-    padding: 10px 15px;
+    padding: 15px;
     background-color: #F26522;
     border-top: 1px solid #DDD;
 }
@@ -1009,12 +1031,18 @@ ul.sub-menu {
     display: inline-block;
     width: 10px;
     height: 10px;
-    margin: 1px;
+    margin: 1px 5px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: transparent;
-    border: 1px solid #FFF;
-    border-radius: 10px;
+    background-color: #959595;
+    padding: 8px;
+}
+.panel-brand-footer li.active {
+	background-color: #FFF;
+}
+.imagedropshadow {
+    max-width: 100%;
+    margin: 0 -15px;
 }
 
 /*========== Best Seller CSS ==========*/
