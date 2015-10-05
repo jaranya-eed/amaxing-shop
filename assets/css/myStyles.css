@@ -2,6 +2,10 @@ body {
     font-size: 14px;
 /*     font-family: 'Helvetica'; */
 }
+hr {
+	margin-right: 15px;
+	border-color: #898989;
+}
 img {
     max-width: 100%;
 }
@@ -45,9 +49,6 @@ a#scrollUp i{
 }
 .header-top a {
   color: #000;
-}
-.contactinfo {
-    margin-left: -15px;
 }
 .contactinfo ul li {
     border-right: 1px solid #898989;
@@ -252,7 +253,6 @@ a#scrollUp i{
     background: url("../img/icon/customer-service-hover.png") no-repeat;
 }
 .shopping-item {
-    font-family: 'Helvetica';
     float: right;
     font-size: 14px;
     text-transform: uppercase;
@@ -277,7 +277,6 @@ a#scrollUp i{
 }
 .shopping-text {
     margin-top: -41px;
-    font-family: 'Helvetica';
 }
 .shopping-cart {
     color: #F26522;
@@ -316,7 +315,7 @@ a#scrollUp i{
 }
 .mainmenu ul li a:hover, .mainmenu ul li a.active,  .shop-menu ul li a.active{
     background:none;
-    color:#fdb45e;
+    color: #FE980F;
 }
 .category {
     font-weight: 500;
@@ -709,9 +708,9 @@ ul.sub-menu {
 	border-bottom-right-radius: 2px !important;
 	border-bottom-left-radius: 0 !important;
 }
-/*================ Right Sidebar Menu ====================*/
+/*================ Right Side Menu ====================*/
 .right-side {
-	margin-top: 20px;
+	margin-top: 15px;
 }
 @media (min-width: 768px) {
 	.right-side-indicators {
@@ -730,39 +729,37 @@ ul.sub-menu {
     list-style: outside none none;
 }
 
-/*================ Left Sidebar Menu ====================*/
-/*.category-products {
-  border: 1px solid #F7F7F0;
-  margin-bottom: 35px;
-  padding-bottom: 20px;
-  padding-top: 15px;
-  background-color: #EFECEA;
-}*/
-.left-sidebar .category-products {
-    background-color: #EFECEA;
+.panel {
+    border-radius: 0;
 }
-.left-sidebar .category-products ul {
-    list-style: outside none none;
-    margin-left: -40px;
-    /*border: 1px solid #c4c2c1;*/
+.panel-body {
+    padding: 0 15px;
 }
-.left-sidebar .category-products ul li a {
-    font-size: 14px;
-    display: block;
-    padding: 16px 5px 11px 15px;
-    color: #000;
-    background-color: #efecea;
-    border: 1px solid #c4c2c1;
-    border-top: none;
-    font-family: 'Helvetica';
-    text-decoration: none;
+.panel-brand-footer {
+    padding: 15px;
+    background-color: #F26522;
+    border-top: 1px solid #DDD;
 }
-.left-sidebar .category-products ul li a .text{
-    margin-left: 22px;
+
+.panel-brand-footer li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #959595;
+    padding: 7px;
 }
-.left-sidebar .category-products ul > li > a i.fa {
-    float: right;
-    margin-right: 8px;
+.panel-brand-footer li.active {
+	background-color: #FFF;
+}
+.imagedropshadow {
+    max-width: 100%;
+    margin: 0 -15px;
+}
+.side-slider {
+    padding: 15px 0 0 0;
 }
 /****icon****/
 
@@ -834,88 +831,64 @@ ul.sub-menu {
     background: url("../img/icon/watchs.png") no-repeat center;
     /*padding:10px 20px 10px 35px;*/
 }
-.left-sidebar .category-products ul li:hover a.beauty {
-    color: #F5979D;
-}
-.left-sidebar .category-products ul li a:hover span.beauty-icon {
-    background: url("../img/icon/beauty-hover.png") no-repeat center;
-}
-
-.left-sidebar .category-products ul li:hover a.baby {
-    color: #FFC20E;
-}
-.left-sidebar .category-products ul li a:hover span.baby-icon {
-    background: url("../img/icon/baby-hover.png") no-repeat center;
-    
-}.left-sidebar .category-products ul li:hover a.mobile {
-    color: #998574;
-}
-.left-sidebar .category-products ul li a:hover span.mobile-icon {
-    background: url("../img/icon/mobile-hover.png") no-repeat center;
-    
-}.left-sidebar .category-products ul li:hover a.camera {
-    color: #D5A99B;
-}
-.left-sidebar .category-products ul li a:hover span.camera-icon {
-    background: url("../img/icon/camera-hover.png") no-repeat center;
-    
-}.left-sidebar .category-products ul li:hover a.electronic {
-    color: #0072bc;
-}
-.left-sidebar .category-products ul li a:hover span.electronic-icon {
-    background: url("../img/icon/electronic-hover.png") no-repeat center;
-    
-}.left-sidebar .category-products ul li:hover a.home-app {
-    color: #7da7d9;
-}
-.left-sidebar .category-products ul li a:hover span.home-app-icon {
-    background: url("../img/icon/home-app-hover.png") no-repeat center;
-    
-}.left-sidebar .category-products ul li:hover a.home-deco {
-    color: #7accc8;
-}
-.left-sidebar .category-products ul li a:hover span.home-dec-icon {
-    background: url("../img/icon/home-deco-hover.png") no-repeat center;
-    
-}.left-sidebar .category-products ul li:hover a.lifestyle {
-    color: #acd373;
-}
-.left-sidebar .category-products ul li a:hover span.lifestyle-icon {
-    background: url("../img/icon/lifestyle-hover.png") no-repeat center;
-    
-}.left-sidebar .category-products ul li:hover a.fashion {
-    color: #f58220;
-}
-.left-sidebar .category-products ul li a:hover span.fashion-icon {
-    background: url("../img/icon/fashion-hover.png") no-repeat center;
-    
-}.left-sidebar .category-products ul li:hover a.sport {
-    color: #ef404a;
-}
-.left-sidebar .category-products ul li a:hover span.sport-icon {
-    background: url("../img/icon/sport-hover.png") no-repeat center;
-    
-}.left-sidebar .category-products ul li:hover a.automotive {
-    color: #662d91;
-}
-.left-sidebar .category-products ul li a:hover span.automotive-icon {
-    background: url("../img/icon/automotive-hover.png") no-repeat center;
-    
-}.left-sidebar .category-products ul li:hover a.media {
-    color: #383a81;
-}
-.left-sidebar .category-products ul li a:hover span.media-icon {
-    background: url("../img/icon/media-hover.png") no-repeat center;
-    
-}.left-sidebar .category-products ul li:hover a.watchs {
-    color: #59637f;
-}
-.left-sidebar .category-products ul li a:hover span.watchs-icon {
-    background: url("../img/icon/watchs-hover.png") no-repeat center; 
-}
 /*=========== Beauty sidebar menu ==========*/
 .products-menu {
-    margin: 15px 0;
+    margin: 22px 0px 0 -15px;
+/*     color: #FFF; */
+}
+.products-menu ul {
+	padding:0;
+	list-style:none;
+	margin-top: 10px;
+/* 	line-height: 35px; */
+}
+.products-menu ul li {
+	display: inline-block;
+    margin: 0 0px;
+}
+.products-menu ul li:last-child {
+	margin-right: 0;
+}
+.products-menu ul li a {
+	padding: 0px 13px;
+	text-transform:uppercase;
+	font-size:12px;
+	display:block;
+	color:#707070;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.mobile-menu ul li a:hover, .mobile-menu ul li a.active, .mobile-menu ul li a:focus {
+	color: #998675;
+	text-decoration: none;
+	font-weight: bold;
+	border-right: 1px solid #998675;
+}
+.baby-menu ul li a:hover, .baby-menu ul li a.active, .baby-menu ul li a:focus {
+	color: #FFC20E;
+	text-decoration: none;
+	font-weight: bold;
+	border-right: 1px solid #FFC20E;
+}
+.beauty-menu ul li a:hover, .beauty-menu ul li a.active, .beauty-menu ul li a:focus {
+	color: #F5989D;
+	text-decoration: none;
+	font-weight: bold;
+	border-right: 1px solid #F5989D;
+}
+.products-menu .mobile-product {
+    background: #998675;
+    color: #FFF;
+    padding: 5px;
+    font-weight: bold;
+}
+.products-menu .baby-product {
+    background: #FFC20E;
+    color: #FFF;
+    padding: 5px;
+    font-weight: bold;
 }
 .products-menu .beauty-product {
     background: #F5989D;
@@ -926,30 +899,26 @@ ul.sub-menu {
 .products-menu *[class$="-product"] img {
     padding: 0 7px;
 }
-
-.menu-tab {
-    margin-left: -15px;
+.brands-name {
+  	border: 1px solid #B7B6B5;
+  	background: #EFECEA;
+  	margin: -16px -22px 0 0;
+  	border-top: none; 
 }
-.menu-tab ul {
-    background: #40403E none repeat scroll 0% 0%;
-    border-bottom: 1px solid #FE980F;
-    list-style: outside none none;
-    margin: 0px 0px 30px;
-    padding: 0px;
-    width: 100%;
+.brands-name {
+    padding-bottom: 20px;
+    padding-top: 15px;
 }
-.beauty_products {
-
+.brands-name .nav-stacked li a {
+    color: #696763;
+    font-size: 12px;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-transform: capitalize;
 }
-.left-sidebar h2, .beauty_products h2 {
-  color: #FE980F;
-  font-size: 18px;
-  font-weight: 700;
-  margin: 20px auto auto;
-  text-align: center;
-  text-transform: uppercase;
-  position: relative;
-  z-index:3;
+.brands-name .nav-stacked li a:hover{
+/*   	background-color: #fff; */
+  	color: #696763;
 }
 /*========== Carousel Slide=========*/
 #slider {
@@ -972,7 +941,6 @@ ul.sub-menu {
 }
 .item h1 {
     color: #B4B1AB;
-    font-family: abel;
     font-size: 48px;
     margin-top: 115px;
 }
@@ -1018,57 +986,47 @@ ul.sub-menu {
 .right {
     right: 0;
 }
-.panel {
-    border-radius: 0;
-}
-.panel-brand-footer {
-    padding: 15px;
-    background-color: #F26522;
-    border-top: 1px solid #DDD;
-}
-
-.panel-brand-footer li {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 1px 5px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: #959595;
-    padding: 8px;
-}
-.panel-brand-footer li.active {
-	background-color: #FFF;
-}
-.imagedropshadow {
-    max-width: 100%;
-    margin: 0 -15px;
-}
-
 /*========== Best Seller CSS ==========*/
 .nav-tabs {
-    /*border-bottom: transparent;*/
+    border-bottom: transparent;
+}
+.subheader {
+    height: 34px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.subheader {
+    clear: both;
+    margin-bottom: 15px;
+    height: 40px;
+    border-bottom: 1px solid #E0E0E0;
+/*     margin-right: 15px; */
+}
+.best-seller-tab {
+	margin-left: 15px;
+	overflow: auto;
+}
+@media screen and (min-width: 992px) {
+	.all {
+	    text-align: right;
+	}
+}
+.all {
+    margin-top: 40px !important;
+    text-align: left;
 }
 .category-tab {
     overflow: hidden;
     margin-top: 9px; 
 }
 .category-tab .best-seller {
-    border-bottom: 1px solid #DDD;
     margin-right: -15px;
-}
-.category-tab .col-sm-9 {
-    /*margin-left: -15px;*/
-}
-#best-seller-text {
-    background-color: #F26522;
 }
 .category-tab .best-seller-text {
     background-color: #F26522;
     color: #FFF;
-    font-size: 18px;
+    font-size: 17px;
     float: left;
-    padding: 9px 25px;
+    padding: 8px 25px;
     margin-left: -15px;
 }
 .category-tab ul {
@@ -1077,11 +1035,14 @@ ul.sub-menu {
     padding: 0;
     width: 100%;
 }
+.category-tab ul li {
+    margin: 0px 7px;
+}
 .category-tab ul li.active {
     color: #F26522;
 }
 .category-tab .nav > li > a {
-    padding: 10px;
+    padding: 8px 4px;
 }
 .category-tab .view-all {
     padding: 0;
@@ -1193,6 +1154,106 @@ ul.sub-menu {
 .recommended_items .product-image-wrapper a:hover{
     opacity: 0.8;
 }
+.add-to-cart {
+  background: #F26522;
+  border: 0 none;
+  border-radius: 0;
+  color: #FFF;
+  font-size: 12px;
+}
+.add-to-cart:hover {
+  background: #FE980F;
+  border: 0 none;
+  border-radius: 0;
+  color: #FFFFFF;
+}
+.add-to-cart i{
+	margin-right:5px;
+	font-size: 15px;
+}
+.quick-view {
+  background: #898989;
+  border: 0 none;
+  border-radius: 0;
+  color: #FFF;
+  font-size: 12px;
+}
+.quick-view:hover {
+  background: #FE980F;
+  border: 0 none;
+  border-radius: 0;
+  color: #FFF;
+}
+.quick-view i{
+	margin-right:5px;
+	font-size: 15px;
+}
+/*========== tab icon for best seller =========*/
+.beauty-icon-tab {
+    background-position: -9px 0;
+    background: url("../img/menu-icon/beauty-tab.png") no-repeat center;
+    /*padding:10px 20px 10px 35px;*/
+}
+.baby-icon-tab {
+    background-position: -9px 0;
+    background: url("../img/menu-icon/baby-tab.png") no-repeat center;
+    /*padding:10px 20px 10px 35px;*/
+}
+.mobile-icon-tab {
+    background-position: -9px 0;
+    background: url("../img/menu-icon/mobile-tab.png") no-repeat center;
+    /*padding:10px 20px 10px 35px;*/
+}
+.camera-icon-tab {
+    background-position: -9px 0;
+    background: url("../img/menu-icon/camera-tab.png") no-repeat center;
+    /*padding:10px 20px 10px 35px;*/
+}
+.electronic-icon-tab {
+    background-position: -9px 0;
+    background: url("../img/menu-icon/electronic-tab.png") no-repeat center;
+    /*padding:10px 20px 10px 35px;*/
+}
+.home-app-icon-tab {
+    background-position: -9px 0;
+    background: url("../img/menu-icon/home-app-tab.png") no-repeat center;
+    /*padding:10px 20px 10px 35px;*/
+}
+.home-dec-icon-tab {
+    background-position: -9px 0;
+    background: url("../img/menu-icon/home-deco-tab.png") no-repeat center;
+    /*padding:10px 20px 10px 35px;*/
+}
+.lifestyle-icon-tab {
+    background-position: -9px 0;
+    background: url("../img/menu-icon/lifestyle-tab.png") no-repeat center;
+    /*padding:10px 20px 10px 35px;*/
+}
+.fashion-icon-tab {
+    background-position: -9px 0;
+    background: url("../img/menu-icon/fashion-tab.png") no-repeat center;
+    /*padding:10px 20px 10px 35px;*/
+}
+.sport-icon-tab {
+    background-position: -9px 0;
+    background: url("../img/menu-icon/sport-tab.png") no-repeat center;
+    /*padding:10px 20px 10px 35px;*/
+}
+.automotive-icon-tab {
+    background-position: -9px 0;
+    background: url("../img/menu-icon/automotive-tab.png") no-repeat center;
+    /*padding:10px 20px 10px 35px;*/
+}
+.media-icon-tab {
+    background-position: -9px 0;
+    background: url("../img/menu-icon/media-tab.png") no-repeat center;
+    /*padding:10px 20px 10px 35px;*/
+}
+.watchs-icon-tab {
+    background-position: -9px 0;
+    background: url("../img/menu-icon/watchs-tab.png") no-repeat center;
+    /*padding:10px 20px 10px 35px;*/
+}
 
 /*========== Footer CSS ==========*/
 #footer {
@@ -1211,7 +1272,6 @@ ul.sub-menu {
 }
 .companyinfo h2 {
     color: #B4B1AB;
-    font-family: abel;
     font-size: 27px;
     text-transform: uppercase;
 }
