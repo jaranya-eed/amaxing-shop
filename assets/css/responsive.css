@@ -134,7 +134,6 @@
 	display: inline-block;
 	float: right;
 }
-
 .header-middle .col-sm-4 {
 	display: inline-block;
 	overflow: inherit;
@@ -295,6 +294,24 @@ ul.sub-menu{
 
 .social-icons.pull-right{
 	float: none !important;
+	text-align: center;
+}
+/*my style*/
+.header-top-right {
+	float: none !important;
+	text-align: center;
+}
+.header-top-right ul.list-inline {
+	background-image: center;
+}
+.best-seller-tab {
+    margin: 0;
+}
+.block-shoppingcart {
+	margin: 0;
+	padding: 0;
+}
+.shop-menu ul li a {
 	text-align: center;
 }
 
