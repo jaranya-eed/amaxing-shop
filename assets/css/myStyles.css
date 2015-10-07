@@ -149,10 +149,10 @@ a#scrollUp i{
 }
 .header-middle {
     background-color: #EFECEA;
-    padding: 11px 0;
+    padding: 11px 0 7px;
 }
 .shop-menu ul li {
-    padding: 0 10px;
+    padding: 15px 10px;
 }
 .shop-menu ul li:last-child {
     padding-right: 0;
@@ -166,6 +166,7 @@ a#scrollUp i{
     padding:0;
     padding-right: 0;
     text-transform: capitalize;
+    line-height: 1em;
 }
 .shop-menu ul li a.free-delivery {
     padding: 0 12px;
@@ -177,16 +178,16 @@ a#scrollUp i{
     padding: 0 12px;
 }
 .shop-menu ul li a i {
-    padding: 4px 10px;
+    padding: 12px 10px;
 }
 .shop-menu ul li a i.free-delivery-menu {
-    padding: 4px 17px;
+    padding: 10px 20px;
 }
 .shop-menu ul li a i.return-policy-menu {
-    padding: 5px 12px;
+    padding: 12px;
 }
 .shop-menu ul li a i.customer-service-menu {
-    padding: 5px 16px;
+    padding: 9px 16px;
 }
 .shop-menu ul li a:hover {
     color: #F26522;
@@ -270,7 +271,7 @@ a#scrollUp i{
     background: url("../img/icon/customer-service-hover.png") no-repeat;
 }
 .search-form {
-	margin-top: 15px;
+/* 	margin-top: 15px; */
 }
 .shopping-item {
     float: right;
@@ -287,7 +288,7 @@ a#scrollUp i{
 }
 .block-shoppingcart {
     display: block;
-    margin-top: 5px;
+/*     margin-top: 14px; */
     padding: 5px 0 5px 45px;
     background: transparent url("../img/icon/cart.png") no-repeat scroll 5px center;
 }

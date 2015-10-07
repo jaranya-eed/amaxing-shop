@@ -54,7 +54,7 @@
 				<div class="col-sm-10">
 					<div class="shop-menu pull-right">
 						<ul class="nav navbar-nav">
-							<li><a href="#" class="text-center"><i class="customer-protect-menu"></i><br>customer<br><span class="menu-txt">protection guarantee</span></a></li>
+							<li><a href="#" class="text-center"><i class="customer-protect-menu"></i><span class="menu-txt"><br>customer<br>protection guarantee</span></a></li>
 							<li><a href="services.html" class="text-center"><i class="personal-info-menu"></i><br>personal<br><span class="menu-txt">information security</span></a></li>
                             <li><a href="about.html" class="text-center free-delivery"><i class="free-delivery-menu"></i><br>free<br><span class="menu-txt">delivery</span></a></li>
                             <li><a href="contact.html" class="text-center return-policy"><i class="return-policy-menu"></i><br>return<br><span class="menu-txt">policy</span></a></li>
