@@ -11,9 +11,10 @@
                 <li><a href="#" class="home-deco"><i class="img-icon-frame home-dec-icon"></i><span>Home &amp; Decoration</span><i class="fa fa-caret-right pull-right"></i></a></li>
                 <li><a href="#" class="lifestyle"><i class="img-icon-frame lifestyle-icon"></i><span>Lifestyle</span><i class="fa fa-caret-right pull-right"></i></a></li>
                 <li><a href="#" class="fashion"><i class="img-icon-frame fashion-icon"></i><span>Fashion</span><i class="fa fa-caret-right pull-right"></i></a></li>
+                <li><a href="#" class="sport"><i class="img-icon-frame sport-icon"></i><span class="text">Sport</span></a></li>
                 <li><a href="#" class="automotive"><i class="img-icon-frame automotive-icon"></i><span>Automotive</span><i class="fa fa-caret-right pull-right"></i></a></li>
                 <li><a href="#" class="media-side"><i class="img-icon-frame media-icon"></i><span>Media</span><i class="fa fa-caret-right pull-right"></i></a></li>
-                <li><a href="#" class="watchs"><i class="img-icon-frame watchs-icon"></i><span>Watchs &amp; Jewellery</span><i class="fa fa-caret-right pull-right"></i></a></li>
+                <li><a href="#" class="watchs"><i class="img-icon-frame watchs-icon"></i><span>Watches &amp; Jewellery</span><i class="fa fa-caret-right pull-right"></i></a></li>
 			</ul>
 		</div>			
 	</div>

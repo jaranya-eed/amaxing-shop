@@ -3,8 +3,8 @@
 <!-- <link href="css/prettyPhoto.css" rel="stylesheet">
 <link href="css/price-range.css" rel="stylesheet">
 <link href="css/animate.css" rel="stylesheet">
-<link href="css/main.css" rel="stylesheet">
-<link href="css/responsive.css" rel="stylesheet"> -->
+<link href="css/main.css" rel="stylesheet"> -->
+<link href="assets/css/responsive.css" rel="stylesheet">
 <!-- ICON STYLES -->
 <link href="assets/css/flags.css" rel="stylesheet" type="text/css">
 <!--[if lt IE 9]>

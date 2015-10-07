@@ -7,6 +7,7 @@ class User extends CI_Controller {
 	 */
 	public function index(){
 // 		echo 'Hello World!';
+		$this->load->helper('url');
 		$this->load->view('home');
 	}
 	
